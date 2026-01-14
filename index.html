@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Cafeteria</title>
+</head>
+
+<body>
+    <div class="caixa-video">
+        <video src="videos/coffe.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header>
+        <section>
+            <a>
+                <img src="img/logo.jpeg" alt="logo-cafeteria" class="logo" oneclick="abrirLogo()">
+            </a>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
+            </nav>
+
+        </section>
+    </header>
+
+    <section class="caixa-principal">
+        <div>
+            <h3>Familiar e acolhedora</h3>
+            <p>Café, conforto e bons momentos em um só lugar</p>
+            <a class="botao-link" href="#" onclick="sintoMuito()">Conheça nosso espaço</a>
+        </div>
+    </section>
+
+
+    <section class="caixa-sobre" id="sobre">
+        <h2 class="titulo"><span>Sobre</span> Nós</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="img/about-img.jpeg">
+            </div>
+
+            <div class="sobre-texto">
+                <h3>O que faz nosso café especial</h3>
+                <p>Somos uma cafeteria pensada para reunir pessoas, criar momentos e tornar o dia a dia mais leve. Acreditamos que o café é mais do que uma bebida: é uma pausa, um encontro e uma forma de compartilhar boas experiências em família.</p>
+                <p>Nosso espaço foi idealizado para ser acolhedor e confortável, ideal para todas as idades. Aqui, cada detalhe é pensado com cuidado, desde a seleção dos cafés até o atendimento, sempre buscando qualidade, simplicidade e carinho em cada preparo.
+                Mais do que servir café, queremos oferecer um ambiente onde todos se sintam bem-vindos — um lugar para conversar, relaxar e aproveitar bons momentos juntos.</p>
+                <a class="botao-link" href="#">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal">
+        <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59269.19490885739!2d-49.650631971000735!3d-21.806382641257798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e0!3m2!1spt-BR!2sbr!4v1768345339909!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="mascara-modal" onclick="esconderModal()">
+    </div>
+
+    <div class="manutençao" onclick="sintoMuito()"></div>
+        
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
