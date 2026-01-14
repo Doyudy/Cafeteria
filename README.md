@@ -1,4 +1,4 @@
-### Nesse protótipo de cafeteria foram usadas as ferramentas<br/>
+### Nesse protótipo de cafeteria foram usadas as ferramentas
 
 ### HTML5
 
